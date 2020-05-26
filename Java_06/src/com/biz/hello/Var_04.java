@@ -11,7 +11,7 @@ public class Var_04 {
 
 		for (int i = 2 ; i < num ; i ++) {
 			if(num % i == 0) {
-				System.out.printf(i + "%d 로 나눈 나머지가 0 이므로 %d는 소수가 아님\n",i,num);
+				System.out.printf("%d 로 나눈 나머지가 0 이므로 %d는 소수가 아님\n",i,num);
 				
 				/*
 				 * 2 ~ num -1까지 범위의 값으로
