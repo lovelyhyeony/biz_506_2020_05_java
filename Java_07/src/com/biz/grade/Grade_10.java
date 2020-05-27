@@ -20,28 +20,33 @@ public class Grade_10 {
 			
 		}
 		
-		// 과목별로 점수 꼐산 부분
+		// 과목별로 점수 계산 부분
 		int intKorSum = 0;
 		int intEngSum = 0;
 		int intMathSum = 0;
 		
 		for(int i = 0 ; i < 10 ; i++) {
 			intKorSum = intKor[i];
-			intKorSum = intEng[i];
-			intKorSum = intMath[i];
+			intEngSum = intEng[i];
+			intMathSum = intMath[i];
 		}
 		
+		// 결과 출력부분
 		System.out.println("============");
 		System.out.println("학생 성적 리스트");
 		System.out.println("------------------");
 		System.out.println("학번\t국어\t영어\t수학\t총점");
 		System.out.println("------------------");
+		
 		for(int i = 0 ; i < 10 ; i++) {
-			System.out.printf("%d\n%d\n%d\n%d\n%d\n");
+			System.out.printf("%d\n%d\n%d\n%d\n%d\n",i+1,
+					intKor[i],intEng[i],intMath[i],
+					intKor[i]+intEng[i]+intMath[i]);
 		
 		}
 			System.out.println("============");
-			System.out.println("\t%d\t%d\t%d\t%d\t%d");
+			System.out.printf("\t%d\t%d\t%d\t%d\n",intKorSum,intEngSum,intMathSum,intKorSum+intEngSum+intMathSum);
+			System.out.println("============");
 			
 		}
 
