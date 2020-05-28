@@ -50,7 +50,7 @@ public class Array_Answer_01 {
 			intKorSum += intKor[i];
 			intEngSum += intEng[i];
 			intMathSum += intMath[i];
-			intMusicSum += intMusic[i];
+			intMusicSum += intMusic[i]; 
 		}
 		// =====================================================
 		// 국어 영어 수학 음악 총점
