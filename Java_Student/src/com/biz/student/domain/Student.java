@@ -24,6 +24,8 @@ public class Student {
 	private int grade;
 	private String dept;
 	
+	
+	
 	public String getNum() {
 		return num;
 	}
