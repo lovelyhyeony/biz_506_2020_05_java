@@ -22,8 +22,6 @@ public class Score {
 		intSum += intArt;
 		
 		return intSum;
-		
-		
 	}
 	
 	public int avg() {
@@ -32,9 +30,5 @@ public class Score {
 		
 		return intAvg ;
 	}
-	
-	
-	
-	
-	
+
 }
